@@ -1,0 +1,71 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background-color: blue;
+	color: white;
+
+}
+
+header span{
+	font-size: 3vw;
+	margin-right: 5%;
+	margin-left: 2%;
+	vertical-align: top;
+}
+
+header a >img{
+	width: 10%;
+	height: 20%;
+}
+
+header span >a{
+	text-decoration: underline;
+	color: white;
+}
+
+main .left{
+	width: 10%;
+	float: left;
+	background-color: blue;
+	height: 154vh;
+	
+}
+
+main .left >ul{
+	display: block;
+	padding-left: 0pt;
+	color: white;
+	font-size: 3vw;
+	text-align: left;
+	list-style-type: none;
+}
+
+main .left ul li{
+	margin-top: 30%;
+}
+
+main .right{
+	vertical-align: top;
+	width: 90%;
+	float: left;
+	background-color: #00008B;
+}
+
+main .right td{
+	padding-left: 10%;
+	height: 50vh;
+}
+
+main .right td img{
+	width: 80%;
+	height: 50%;
+}
+
+footer{
+
+	background-color: #00008B;
+	color: white;
+}
